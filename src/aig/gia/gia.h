@@ -1437,7 +1437,7 @@ extern void                Gia_ManQuantSetSuppCi( Gia_Man_t * p, Gia_Obj_t * pOb
 extern void                Gia_ManQuantUpdateCiSupp( Gia_Man_t * p, int iObj );
 extern int                 Gia_ManQuantExist( Gia_Man_t * p, int iLit, int(*pFuncCiToKeep)(void *, int), void * pData );
 /*=== giaFanout.c =========================================================*/
-extern void                Gia_ObjAddFanout( Gia_Man_t * p, Gia_Obj_t * pObj, Gia_Obj_t * pFanout );
+//extern void                Gia_ObjAddFanout( Gia_Man_t * p, Gia_Obj_t * pObj, Gia_Obj_t * pFanout );
 extern void                Gia_ObjRemoveFanout( Gia_Man_t * p, Gia_Obj_t * pObj, Gia_Obj_t * pFanout );
 extern void                Gia_ManFanoutStart( Gia_Man_t * p );
 extern void                Gia_ManFanoutStop( Gia_Man_t * p );
@@ -1597,7 +1597,7 @@ extern void                Gia_ManSimInfoInit( Gia_ManSim_t * p );
 extern void                Gia_ManSimInfoTransfer( Gia_ManSim_t * p );
 extern void                Gia_ManSimulateRound( Gia_ManSim_t * p );
 extern void                Gia_ManBuiltInSimStart( Gia_Man_t * p, int nWords, int nObjs );
-extern void                Gia_ManBuiltInSimPerform( Gia_Man_t * p, int iObj );
+//extern void                Gia_ManBuiltInSimPerform( Gia_Man_t * p, int iObj );
 extern int                 Gia_ManBuiltInSimCheckOver( Gia_Man_t * p, int iLit0, int iLit1 );
 extern int                 Gia_ManBuiltInSimCheckEqual( Gia_Man_t * p, int iLit0, int iLit1 );
 extern void                Gia_ManBuiltInSimResimulateCone( Gia_Man_t * p, int iLit0, int iLit1 );
